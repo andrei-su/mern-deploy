@@ -25,7 +25,22 @@
 }
 
 .App-link {
+  background-color: #282c34;
+  border: 2px solid #61dafb;
+  border-radius: 12px;
   color: #61dafb;
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 1em;
+  margin: 1em;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.App-link:hover {
+  opacity: 1;
 }
 
 @keyframes App-logo-spin {
